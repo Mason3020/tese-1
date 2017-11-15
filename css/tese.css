@@ -1,0 +1,132 @@
+/********BODY DECORATIONS***********/
+
+body {
+	background-color:#f6f6f6;
+	margin-top: 160px;
+
+}
+header {
+	float: left;
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	background-color: #1E56A0;
+	width:100%;
+	z-index: 10000;
+}
+footer {
+	background-color: #163172;
+}
+/******SEARCH BUTTON*****/
+input[type=text] {
+    width: 400px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+}
+/*************MAIN CONTAINER DIVS*********/
+
+.universities {
+	text-align: center;
+	overflow: auto;
+	margin-top: 3px;
+}
+.UZ {
+    text-align: left;
+    
+}
+.msu {
+text-align: left;
+}
+.cut {
+	text-align: left;
+
+}
+/*******IMAGES DIVS************/
+.im1,.im2,.im3,.im4,.im5,.im6,.im7,.im8,.im9,.im10,.im11,.im12,.im13, .im14 {
+
+	margin: 1px;
+	padding: 2px;
+	display: inline-block;
+}
+img {
+	border-radius: 25px;
+}
+/******NAVIGATION************/
+.navigation {
+	float: right;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+	
+}
+nav a {
+	font-weight: 700;
+	padding: 15px 10px;
+}
+.desc {
+	text-align: center;
+}
+/**********FORMS******************/
+input[type=text], select, {
+    width:45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 85%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+input[type=email] {
+	width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password] {
+	width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
